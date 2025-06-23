@@ -150,11 +150,11 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {bookInfo.authors.map((author, index) => (
               <div key={index} className="text-center">
-                <div className="w-32 h-32 mx-auto mb-6 gradient-bg rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-3xl">
-                    {author.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
+<img
+  src={author === "Henry A. Kissinger" ? "/images/authors/henry-kissinger.jpg" : `/images/authors/${author.toLowerCase().replace(/ /g, '-')}.jpg`}
+  alt={author}
+  className="w-32 h-32 mx-auto mb-6 rounded-full object-cover"
+/>
                 <h3 className="font-montserrat font-semibold text-xl text-white mb-2">
                   {author}
                 </h3>

@@ -20,8 +20,15 @@ const Authors: React.FC = () => {
   }, []);
 
   const getAuthorImage = (name: string) => {
-    // Generate initials from name
-    return name.split(' ').map(n => n[0]).join('');
+    let imagePath = '';
+    if (name === 'Henry A. Kissinger') {
+      imagePath = '/images/authors/henry-kissinger.jpg';
+    } else if (name === 'Eric Schmidt') {
+      imagePath = '/images/authors/eric-schmidt.jpg';
+    } else if (name === 'Craig Mundie') {
+      imagePath = '/images/authors/craig-mundie.jpg';
+    }
+    return imagePath;
   };
 
   const getAuthorColor = (index: number) => {
@@ -89,9 +96,11 @@ const Authors: React.FC = () => {
                 {/* Author Photo/Avatar */}
                 <div className={`flex justify-center ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
                   <div className="relative">
-                    <div className={`w-80 h-80 ${getAuthorColor(index)} rounded-2xl flex items-center justify-center text-6xl font-bold text-white shadow-2xl`}>
-                      {getAuthorImage(author.name)}
-                    </div>
+                    <img
+                      src={getAuthorImage(author.name)}
+                      alt={author.name}
+                      className="w-80 h-80 rounded-2xl shadow-2xl object-cover"
+                    />
                     <div className="absolute -bottom-6 -right-6 w-32 h-32 gradient-bg rounded-full opacity-20 blur-xl"></div>
                   </div>
                 </div>
