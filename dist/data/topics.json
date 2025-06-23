@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "title": "Ảnh hưởng sâu sắc của AI đối với bản chất của hiện thực, đạo đức và cuộc sống con người",
+    "description": "Khám phá cách trí tuệ nhân tạo có thể thay đổi căn bản cách chúng ta nhận thức về thế giới, các chuẩn mực đạo đức và ý nghĩa của việc làm người.",
+    "chapters": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "tags": [
+      "đạo đức",
+      "hiện thực",
+      "nhân văn",
+      "AI"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Trí tuệ nhân tạo như một động lực thay đổi trong khám phá và mở rộng kiến thức",
+    "description": "AI như một công cụ mạnh mẽ giúp con người mở rộng ranh giới hiểu biết và khám phá những điều chưa biết trong khoa học và tri thức.",
+    "chapters": [
+      1,
+      7
+    ],
+    "tags": [
+      "khám phá",
+      "tri thức",
+      "khoa học",
+      "AI"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "So sánh và sự khác biệt cơ bản giữa trí tuệ nhân tạo và bộ não con người",
+    "description": "Phân tích chi tiết những điểm tương đồng và khác biệt giữa cách AI và não người xử lý thông tin, học hỏi và đưa ra quyết định.",
+    "chapters": [
+      2,
+      3
+    ],
+    "tags": [
+      "bộ não",
+      "so sánh",
+      "xử lý thông tin",
+      "AI"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Tác động và ý nghĩa của AI đối với các lĩnh vực cốt lõi của xã hội",
+    "description": "Nghiên cứu cách AI ảnh hưởng đến chính trị, an ninh, kinh tế và khoa học - bốn trụ cột chính của xã hội hiện đại.",
+    "chapters": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "chính trị",
+      "an ninh",
+      "kinh tế",
+      "khoa học"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mối quan hệ phức tạp và tiềm năng cùng tiến hóa giữa con người và AI",
+    "description": "Khám phá cách con người và AI có thể cùng phát triển và bổ sung cho nhau trong tương lai, tạo ra một mối quan hệ cộng sinh.",
+    "chapters": [
+      1,
+      2,
+      8
+    ],
+    "tags": [
+      "tiến hóa",
+      "cộng sinh",
+      "tương lai",
+      "AI"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Ý nghĩa của việc trở thành con người trong một thế giới ngày càng được định hình bởi AI",
+    "description": "Tư duy về bản chất con người và những đặc trưng độc nhất của chúng ta trong bối cảnh AI ngày càng phát triển mạnh mẽ.",
+    "chapters": [
+      2,
+      3,
+      4,
+      8
+    ],
+    "tags": [
+      "nhân văn",
+      "bản chất",
+      "con người",
+      "AI"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Sự cần thiết của việc hướng dẫn và quản lý công nghệ AI bằng sự khôn ngoan, trách nhiệm và các giá trị nhân văn",
+    "description": "Đưa ra khuôn khổ và chiến lược để đảm bảo AI phát triển theo hướng có lợi cho nhân loại và phù hợp với đạo đức.",
+    "chapters": [
+      4,
+      5,
+      8
+    ],
+    "tags": [
+      "quản lý",
+      "trách nhiệm",
+      "đạo đức",
+      "AI"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Henry A. Kissinger",
+    "title": "Cựu Ngoại trưởng Hoa Kỳ",
+    "bio": "Henry Kissinger là một nhà ngoại giao và nhà lý thuyết chính trị nổi tiếng, từng giữ chức Ngoại trưởng Hoa Kỳ từ 1973-1977. Ông là người đoạt giải Nobel Hòa bình năm 1973 và được biết đến với vai trò quan trọng trong việc định hình chính sách đối ngoại Mỹ trong thời kỳ Chiến tranh Lạnh.",
+    "expertise": [
+      "Ngoại giao",
+      "Chính trị quốc tế",
+      "Chiến lược"
+    ]
+  },
+  {
+    "name": "Eric Schmidt",
+    "title": "Cựu CEO Google",
+    "bio": "Eric Schmidt là cựu CEO của Google (2001-2011) và Executive Chairman của Alphabet. Ông đã đóng vai trò quan trọng trong việc phát triển Google thành một trong những công ty công nghệ lớn nhất thế giới. Schmidt cũng là chủ tịch của Defense Innovation Board và có nhiều đóng góp trong lĩnh vực AI và công nghệ.",
+    "expertise": [
+      "Công nghệ",
+      "AI",
+      "Quản lý doanh nghiệp"
+    ]
+  },
+  {
+    "name": "Craig Mundie",
+    "title": "Cựu Chief Research and Strategy Officer Microsoft",
+    "bio": "Craig Mundie đã làm việc tại Microsoft trong hơn 20 năm, giữ các vị trí lãnh đạo cao cấp bao gồm Chief Research and Strategy Officer. Ông có nhiều kinh nghiệm trong nghiên cứu và phát triển công nghệ, đặc biệt trong lĩnh vực trí tuệ nhân tạo và tính toán.",
+    "expertise": [
+      "Nghiên cứu công nghệ",
+      "AI",
+      "Chiến lược công nghệ"
+    ]
+  }
+]

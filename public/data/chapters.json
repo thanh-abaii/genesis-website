@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Khám phá",
+    "part": "Phần I: Trong sự Khởi đầu",
+    "summary": "Đề cập đến việc trí tuệ nhân tạo đã mở ra một kỷ nguyên khám phá mới. AI có khả năng mở rộng ranh giới hiểu biết của con người về thế giới, từ những khám phá khoa học đến việc hiểu sâu hơn về bản chất con người. Chương này khám phá cách AI có thể trở thành một công cụ hỗ trợ mạnh mẽ trong việc nghiên cứu và khám phá những điều chưa biết.",
+    "key_ideas": [
+      "AI mở ra kỷ nguyên khám phá mới",
+      "Mở rộng ranh giới hiểu biết con người",
+      "AI như công cụ hỗ trợ nghiên cứu"
+    ],
+    "quote": "Discovery may be the single most exhilarating capacity of the human species.",
+    "tags": [
+      "khám phá",
+      "nghiên cứu",
+      "AI",
+      "tri thức"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Bộ não",
+    "part": "Phần I: Trong sự Khởi đầu",
+    "summary": "So sánh giữa trí tuệ nhân tạo và bộ não con người, tập trung vào những điểm khác biệt và các vấn đề về độ mờ đục, tính đa dạng và tốc độ xử lý. Chương này phân tích sự khác biệt cơ bản giữa cách máy tính và não người xử lý thông tin, cũng như những thách thức trong việc tái tạo hoặc thay thế chức năng não bộ.",
+    "key_ideas": [
+      "So sánh AI và bộ não con người",
+      "Khác biệt về xử lý thông tin",
+      "Thách thức tái tạo chức năng não bộ"
+    ],
+    "quote": "By engineering in a matter of decades a counterpart to what evolution produced over millennia —that is, the brain —we have found ourselves tackling the last organ remaining for inorganic replication or reinvention.",
+    "tags": [
+      "bộ não",
+      "AI",
+      "so sánh",
+      "xử lý thông tin"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Thực tại",
+    "part": "Phần I: Trong sự Khởi đầu",
+    "summary": "Nghiên cứu khả năng của trí tuệ nhân tạo trong việc diễn giải thế giới thực, khả năng của trí tuệ nhân tạo sẽ quyết định và định hình con người như thế nào. Chương này khám phá cách AI có thể thay đổi nhận thức của chúng ta về thực tại và ảnh hưởng đến cách chúng ta hiểu và tương tác với thế giới xung quanh.",
+    "key_ideas": [
+      "AI diễn giải thế giới thực",
+      "Thay đổi nhận thức về thực tại",
+      "Ảnh hưởng đến tương tác con người"
+    ],
+    "quote": "Máy móc ngày nay không sở hữu 'trải nghiệm chưa được phiên dịch' của viên đá của Whitehead mà là điều ngược lại: diễn giải không có kinh nghiệm.",
+    "tags": [
+      "thực tại",
+      "nhận thức",
+      "AI",
+      "tương tác"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chính trị",
+    "part": "Phần II: Bốn nhánh",
+    "summary": "Xem xét tác động của trí tuệ nhân tạo đối với chính trị và sự thay đổi tiềm tàng trong các cấu trúc lãnh đạo truyền thống. Chương này phân tích cách AI có thể thay đổi bản chất của việc quản trị, ra quyết định chính trị và mối quan hệ giữa người dân và chính phủ.",
+    "key_ideas": [
+      "Tác động AI đối với chính trị",
+      "Thay đổi cấu trúc lãnh đạo",
+      "AI trong quản trị và ra quyết định"
+    ],
+    "quote": "Nếu chúng ta thừa nhận rằng cuộc sống con người có thể bị chi phối bởi lý trí, thì khả năng tồn tại của nó sẽ bị hủy hoại.",
+    "tags": [
+      "chính trị",
+      "quản trị",
+      "lãnh đạo",
+      "AI"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "An ninh",
+    "part": "Phần II: Bốn nhánh",
+    "summary": "Nghiên cứu tác động của trí tuệ nhân tạo đối với các khía cạnh quốc phòng, cạnh tranh và an ninh. Chương này khám phá cách AI có thể thay đổi bản chất của chiến tranh, an ninh quốc gia và sự cân bằng quyền lực toàn cầu.",
+    "key_ideas": [
+      "AI trong quốc phòng và an ninh",
+      "Thay đổi bản chất chiến tranh",
+      "Cân bằng quyền lực toàn cầu"
+    ],
+    "quote": "Chúng ta luôn có thể tự hỏi các chương trình của lực lượng phòng thủ có thể so sánh với chương trình của lực lượng tấn công như thế nào",
+    "tags": [
+      "an ninh",
+      "quốc phòng",
+      "chiến tranh",
+      "AI"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Thịnh vượng",
+    "part": "Phần II: Bốn nhánh",
+    "summary": "Khám phá tác động của trí tuệ nhân tạo đối với sự thịnh vượng kinh tế, tăng trưởng và yêu cầu cho sự hòa nhập và phân phối. Chương này phân tích cách AI có thể thay đổi nền kinh tế, thị trường lao động và sự phân phối tài sản trong xã hội.",
+    "key_ideas": [
+      "AI và thịnh vượng kinh tế",
+      "Thay đổi thị trường lao động",
+      "Phân phối tài sản trong xã hội"
+    ],
+    "quote": "Intelligence, as an engine of fresh creation, is set to change our understanding of everything.",
+    "tags": [
+      "kinh tế",
+      "thịnh vượng",
+      "lao động",
+      "AI"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Khoa học",
+    "part": "Phần II: Bốn nhánh",
+    "summary": "Phân tích vai trò của AI trong việc thúc đẩy nghiên cứu khoa học và mở ra những phương pháp mới trong khám phá khoa học. Chương này khám phá cách AI có thể thay đổi cách chúng ta tiến hành nghiên cứu khoa học và phát hiện những hiểu biết mới về vũ trụ.",
+    "key_ideas": [
+      "AI thúc đẩy nghiên cứu khoa học",
+      "Phương pháp mới trong khám phá",
+      "Hiểu biết mới về vũ trụ"
+    ],
+    "quote": "AI sẽ tiến hành việc nghiên cứu khoa học sâu hơn và tốt hơn so với việc phân tích sâu hơn từ trí óc con người.",
+    "tags": [
+      "khoa học",
+      "nghiên cứu",
+      "khám phá",
+      "AI"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Chiến lược",
+    "part": "Phần III: Cây Sự sống",
+    "summary": "Trình bày những chiến lược cần thiết để định hướng và quản lý sự phát triển của AI một cách có trách nhiệm. Chương này đưa ra khuôn khổ để đảm bảo AI phát triển theo hướng có lợi cho nhân loại và phù hợp với các giá trị nhân văn.",
+    "key_ideas": [
+      "Chiến lược quản lý AI có trách nhiệm",
+      "Định hướng phát triển AI",
+      "Phù hợp với giá trị nhân văn"
+    ],
+    "quote": "Without control over the direction, there is less regard for the destination.",
+    "tags": [
+      "chiến lược",
+      "quản lý",
+      "trách nhiệm",
+      "AI"
+    ]
+  }
+]

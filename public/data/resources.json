@@ -1,0 +1,40 @@
+[
+  {
+    "type": "book",
+    "title": "The Age of AI: And Our Human Future",
+    "authors": [
+      "Henry A. Kissinger",
+      "Eric Schmidt",
+      "Daniel Huttenlocher"
+    ],
+    "description": "Cuốn sách trước đó của các tác giả về tương lai của AI và nhân loại",
+    "url": "#"
+  },
+  {
+    "type": "article",
+    "title": "How the Enlightenment Ends",
+    "authors": [
+      "Henry A. Kissinger"
+    ],
+    "description": "Bài viết của Kissinger trên The Atlantic về tác động của AI đối với xã hội",
+    "url": "https://www.theatlantic.com/magazine/archive/2018/06/henry-kissinger-ai-could-mean-the-end-of-human-history/559124/"
+  },
+  {
+    "type": "video",
+    "title": "Eric Schmidt on AI and the Future",
+    "authors": [
+      "Eric Schmidt"
+    ],
+    "description": "Cuộc phỏng vấn về tầm nhìn của Schmidt về tương lai AI",
+    "url": "#"
+  },
+  {
+    "type": "podcast",
+    "title": "The AI Revolution",
+    "authors": [
+      "Various"
+    ],
+    "description": "Podcast về cuộc cách mạng AI và tác động của nó",
+    "url": "#"
+  }
+]

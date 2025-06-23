@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "reviewer": "The New York Times",
+    "rating": 5,
+    "review": "Một tác phẩm xuất sắc khám phá những tác động sâu sắc của AI đối với tương lai nhân loại. Ba tác giả mang đến những góc nhìn đa chiều từ chính trị, công nghệ và chiến lược.",
+    "date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "reviewer": "The Guardian",
+    "rating": 5,
+    "review": "Genesis là một cuốn sách cần thiết cho thời đại của chúng ta. Nó không chỉ là về công nghệ mà còn về bản chất con người trong thế giới AI.",
+    "date": "2024-02-01"
+  },
+  {
+    "id": 3,
+    "reviewer": "MIT Technology Review",
+    "rating": 4,
+    "review": "Một cái nhìn toàn diện và sâu sắc về AI từ những người có kinh nghiệm thực tế trong cả lĩnh vực công nghệ và chính sách.",
+    "date": "2024-01-28"
+  },
+  {
+    "id": 4,
+    "reviewer": "Financial Times",
+    "rating": 5,
+    "review": "Cuốn sách cung cấp một khuôn khổ tư duy cần thiết để hiểu và điều hướng tương lai với AI. Đặc biệt có giá trị cho các nhà lãnh đạo và hoạch định chính sách.",
+    "date": "2024-02-10"
+  }
+]
