@@ -105,6 +105,28 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* Event Introduction Section */}
+      <section className="py-12 bg-[var(--color-bg)]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="font-montserrat font-bold text-3xl md:text-4xl text-white mb-4">
+            Sự kiện sắp tới
+          </h2>
+          <p className="text-gray-400 text-lg mb-8 leading-relaxed">
+            Tham gia sự kiện đặc biệt của chúng tôi để thảo luận về tương lai của AI.
+          </p>
+          <Link
+            to="/events"
+            className="inline-flex items-center text-[var(--color-turquoise)] hover:text-[var(--color-purple)] transition-colors font-semibold"
+          >
+            Xem chi tiết sự kiện
+            <ChevronRight className="ml-2 w-5 h-5" />
+          </Link>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <img src="/images/omega-event.jpg" alt="Omega Event" className="w-full" />
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-20 bg-[var(--color-bg)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -25,6 +25,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { path: '/topics', label: 'Chủ đề' },
     { path: '/reviews', label: 'Đánh giá' },
     { path: '/resources', label: 'Tài liệu' },
+    { path: '/events', label: 'Sự kiện' },
     { path: '/authors', label: 'Tác giả' },
   ];
 

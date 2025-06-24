@@ -7,6 +7,7 @@ import Topics from './pages/Topics';
 import Reviews from './pages/Reviews';
 import Resources from './pages/Resources';
 import Authors from './pages/Authors';
+import Events from './pages/Events';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/topics" element={<Topics />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/authors" element={<Authors />} />
         </Routes>
       </Layout>
