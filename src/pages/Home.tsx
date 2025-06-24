@@ -62,29 +62,28 @@ const Home: React.FC = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="gradient-bg h-96 relative">
+        <div className="bg-gradient-to-r from-[#007bff] to-[#6c757d] h-96 relative">
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
               {/* Text Content */}
               <div className="text-white">
-                <h1 className="font-montserrat font-bold text-4xl md:text-6xl leading-tight mb-6">
-                  Genesis – <br />
-                  <span className="text-white/90">Khởi Nguyên</span>
+                <h1 className="font-montserrat font-bold text-3xl md:text-6xl leading-tight mb-6">
+                  Genesis: Hé Mở Tương Lai AI
                 </h1>
-                <p className="text-xl md:text-2xl text-white/80 mb-8 leading-relaxed">
+                <p className="text-lg md:text-2xl text-white/80 mb-8 leading-relaxed">
                   {bookInfo.description}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col gap-4">
                   <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 rounded-lg text-lg font-semibold inline-flex items-center justify-center">
-                    Mua sách ngay
+                    Sở hữu ngay
                     <ChevronRight className="ml-2 w-5 h-5" />
                   </a>
                   <Link 
                     to="/chapters"
                     className="px-8 py-4 border-2 border-white text-white rounded-lg text-lg font-semibold inline-flex items-center justify-center hover:bg-white hover:text-gray-900 transition-all"
                   >
-                    Khám phá nội dung
+                    Đọc thử ngay
                   </Link>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Search, Sun, Moon } from 'lucide-react';
+import { Menu, X, Search, Sun, Moon, } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -68,6 +68,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               >
                 {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
               </button>
+              <button className="p-2 rounded-md text-white hover:text-[var(--color-icy)] transition-colors">
+                <Search size={20} />
+              </button>
               <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-4 py-2 rounded-md font-medium">
                 Mua sách
               </a>
@@ -89,6 +92,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-[var(--color-bg)] border-t border-[var(--color-icy)]/20">
+              <div className="px-3 py-2">
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm..."
+                  className="w-full px-4 py-2 rounded-md text-base font-medium text-gray-700 bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[var(--color-turquoise)] focus:border-transparent"
+                />
+              </div>
               {navItems.map((item) => (
                 <Link
                   key={item.path}

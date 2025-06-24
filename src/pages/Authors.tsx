@@ -99,7 +99,7 @@ const Authors: React.FC = () => {
                     <img
                       src={getAuthorImage(author.name)}
                       alt={author.name}
-                      className="w-80 h-80 rounded-2xl shadow-2xl object-cover"
+                      className="w-64 h-64 md:w-80 md:h-80 rounded-2xl shadow-2xl object-cover"
                     />
                     <div className="absolute -bottom-6 -right-6 w-32 h-32 gradient-bg rounded-full opacity-20 blur-xl"></div>
                   </div>
@@ -108,10 +108,10 @@ const Authors: React.FC = () => {
                 {/* Author Info */}
                 <div className={`space-y-6 ${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
                   <div>
-                    <h2 className="font-montserrat font-bold text-3xl md:text-4xl text-white mb-2">
+                    <h2 className="font-montserrat font-bold text-2xl md:text-4xl text-white mb-2">
                       {author.name}
                     </h2>
-                    <p className="text-[var(--color-turquoise)] text-lg font-semibold mb-4">
+                    <p className="text-[var(--color-turquoise)] text-base md:text-lg font-semibold mb-4">
                       {author.title}
                     </p>
                   </div>
@@ -273,9 +273,9 @@ const Authors: React.FC = () => {
               Khám phá những hiểu biết sâu sắc từ ba nhà tư tưởng hàng đầu về 
               tương lai của trí tuệ nhân tạo và tác động của nó đối với nhân loại.
             </p>
-            <button className="btn-primary px-8 py-3 rounded-lg font-semibold">
+            <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3 rounded-lg font-semibold">
               Mua sách ngay
-            </button>
+            </a>
           </div>
         </div>
       </div>

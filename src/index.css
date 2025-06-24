@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -63,13 +63,13 @@
   
   body {
     @apply bg-background text-foreground;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--color-bg);
     color: white;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   img {
