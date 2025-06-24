@@ -76,10 +76,10 @@ const Home: React.FC = () => {
                   {bookInfo.description}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <button className="btn-primary px-8 py-4 rounded-lg text-lg font-semibold inline-flex items-center justify-center">
+                  <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 rounded-lg text-lg font-semibold inline-flex items-center justify-center">
                     Mua sách ngay
                     <ChevronRight className="ml-2 w-5 h-5" />
-                  </button>
+                  </a>
                   <Link 
                     to="/chapters"
                     className="px-8 py-4 border-2 border-white text-white rounded-lg text-lg font-semibold inline-flex items-center justify-center hover:bg-white hover:text-gray-900 transition-all"
@@ -257,9 +257,9 @@ const Home: React.FC = () => {
             về tương lai của trí tuệ nhân tạo và tác động của nó đối với nhân loại.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="btn-primary px-8 py-4 rounded-lg text-lg font-semibold">
+            <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 rounded-lg text-lg font-semibold">
               Mua sách ngay
-            </button>
+            </a>
             <Link
               to="/chapters"
               className="px-8 py-4 border-2 border-[var(--color-turquoise)] text-[var(--color-turquoise)] rounded-lg text-lg font-semibold hover:bg-[var(--color-turquoise)] hover:text-white transition-all"

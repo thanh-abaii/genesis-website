@@ -68,9 +68,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               >
                 {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
               </button>
-              <button className="btn-primary px-4 py-2 rounded-md font-medium">
+              <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-4 py-2 rounded-md font-medium">
                 Mua sách
-              </button>
+              </a>
             </div>
 
             {/* Mobile menu button */}
@@ -113,9 +113,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 </button>
               </div>
               <div className="px-3 py-2">
-                <button className="btn-primary w-full px-4 py-2 rounded-md font-medium">
+                <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary w-full px-4 py-2 rounded-md font-medium">
                   Mua sách
-                </button>
+                </a>
               </div>
             </div>
           </div>
