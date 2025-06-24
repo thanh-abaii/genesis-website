@@ -62,26 +62,26 @@ const Home: React.FC = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="bg-gradient-to-r from-[#007bff] to-[#6c757d] h-96 relative">
+        <div className="bg-gradient-to-r from-[#007bff] to-[#545454] h-72 relative">
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
               {/* Text Content */}
               <div className="text-white">
-                <h1 className="font-montserrat font-bold text-3xl md:text-6xl leading-tight mb-6">
+                <h1 className="font-montserrat font-bold text-2xl md:text-4xl leading-tight mb-4">
                   Genesis: Hé Mở Tương Lai AI
                 </h1>
-                <p className="text-lg md:text-2xl text-white/80 mb-8 leading-relaxed">
+                <p className="text-md md:text-xl text-white/80 mb-6 leading-relaxed">
                   {bookInfo.description}
                 </p>
-                <div className="flex flex-col gap-4">
-                  <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 rounded-lg text-lg font-semibold inline-flex items-center justify-center">
+                <div className="flex flex-col gap-3">
+                  <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-6 py-3 rounded-lg text-md font-semibold inline-flex items-center justify-center hover:bg-blue-600 transition-colors">
                     Sở hữu ngay
-                    <ChevronRight className="ml-2 w-5 h-5" />
+                    <ChevronRight className="ml-2 w-4 h-4" />
                   </a>
                   <Link 
                     to="/chapters"
-                    className="px-8 py-4 border-2 border-white text-white rounded-lg text-lg font-semibold inline-flex items-center justify-center hover:bg-white hover:text-gray-900 transition-all"
+                    className="px-6 py-3 border-2 border-white text-white rounded-lg text-md font-semibold inline-flex items-center justify-center hover:bg-white hover:text-gray-900 transition-all"
                   >
                     Đọc thử ngay
                   </Link>
@@ -94,9 +94,9 @@ const Home: React.FC = () => {
                   <img
                     src={bookInfo.cover_image}
                     alt="Bìa sách Genesis – Khởi Nguyên"
-                    className="w-80 h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-300"
+                    className="w-64 h-auto drop-shadow-xl hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute -bottom-4 -right-4 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
+                  <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ const Home: React.FC = () => {
             <ChevronRight className="ml-2 w-5 h-5" />
           </Link>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <img src="/images/omega-event.jpg" alt="Omega Event" className="w-full" />
+            <img src="/images/omega-event.jpg" alt="Omega Event" className="w-full max-w-full" />
           </div>
         </div>
       </section>
@@ -140,7 +140,7 @@ const Home: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <div key={index} className="chapter-card p-8 text-center">
+              <div key={index} className="chapter-card p-8 text-center shadow-md">
                 <div className="inline-flex items-center justify-center w-16 h-16 gradient-bg rounded-full mb-6">
                   {feature.icon}
                 </div>
