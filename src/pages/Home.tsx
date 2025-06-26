@@ -64,7 +64,7 @@ const Home: React.FC = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="bg-gradient-to-r from-[#007bff] to-[#545454] h-72 relative">
+        <div className="bg-gradient-to-r from-[#007bff] to-[#545454] h-96 relative">
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
