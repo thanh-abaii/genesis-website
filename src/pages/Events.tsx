@@ -28,15 +28,15 @@ const Events = () => {
               <Badge className="gradient-bg">Diễn giả:</Badge>
               <ul className="list-none pl-0">
                 <li className="flex items-center mb-2">
-                  <img src="/public/images/authors/dao-trung-thanh.jpg" alt="Đào Trung Thành" className="w-20 h-20 rounded-full mr-2" />
+                  <img src="/images/authors/dao-trung-thanh.jpg" alt="Đào Trung Thành" className="w-20 h-20 rounded-full mr-2" />
                   <span>Đào Trung Thành - Phó Viện trưởng Viện Công nghệ Blockchain và Trí tuệ nhân tạo (ABAII), chuyên gia trong lĩnh vực chuyển đổi số và AI tại Việt Nam.</span>
                 </li>
                 <li className="flex items-center mb-2">
-                  <img src="/public/images/authors/nguyen-quy-tien.jpg" alt="Nguyễn Quý Tiến" className="w-20 h-20 rounded-full mr-2" />
+                  <img src="/images/authors/nguyen-quy-tien.jpg" alt="Nguyễn Quý Tiến" className="w-20 h-20 rounded-full mr-2" />
                   <span>Nguyễn Quý Tiến - Dịch giả, đồng sáng lập Oddly Normal, người chuyển ngữ “Khởi Nguyên - Trí tuệ nhân tạo, niềm hi vọng và tinh thần nhân loại” sang tiếng Việt.</span>
                 </li>
                 <li className="flex items-center mb-2">
-                  <img src="/public/images/authors/ngo-di-lan.jpg" alt="Ngô Di Lân" className="w-20 h-20 rounded-full mr-2" />
+                  <img src="/images/authors/ngo-di-lan.jpg" alt="Ngô Di Lân" className="w-20 h-20 rounded-full mr-2" />
                   <span>Host: Ngô Di Lân - Tiến sĩ Quan hệ quốc tế, giảng viên Học viện Ngoại giao.</span>
                 </li>
               </ul>
