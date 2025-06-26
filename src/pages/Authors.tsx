@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link
-import { ExternalLink, Award, Users, BookOpen, Briefcase, ArrowRight } from 'lucide-react';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Award, Users, BookOpen, Briefcase, ArrowRight } from 'lucide-react';
+import authors from '../data/authors.json';
 
 interface Author {
   name: string;
@@ -11,15 +12,6 @@ interface Author {
 }
 
 const Authors: React.FC = () => {
-  const [authors, setAuthors] = useState<Author[]>([]);
-
-  useEffect(() => {
-    // Load authors data
-    fetch('/data/authors.json')
-      .then(res => res.json())
-      .then(data => setAuthors(data))
-      .catch(err => console.error('Error loading authors:', err));
-  }, []);
 
   const getAuthorImage = (name: string) => {
     let imagePath = '';

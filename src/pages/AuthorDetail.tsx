@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Award, Briefcase } from 'lucide-react';
+import authors from '../data/authors.json';
 
 // Define the Author interface including the new slug
 interface Author {
@@ -45,22 +46,7 @@ const authorAchievementsData = [
 
 const AuthorDetail: React.FC = () => {
   const { authorSlug } = useParams<{ authorSlug: string }>();
-  const [author, setAuthor] = useState<Author | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch('/data/authors.json')
-      .then(res => res.json())
-      .then((data: Author[]) => {
-        const foundAuthor = data.find(a => a.slug === authorSlug);
-        setAuthor(foundAuthor || null);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error('Error loading authors:', err);
-        setLoading(false);
-      });
-  }, [authorSlug]);
+  const author = authors.find(a => a.slug === authorSlug);
 
   const getAuthorImage = (name: string) => {
     let imagePath = '';
@@ -74,9 +60,6 @@ const AuthorDetail: React.FC = () => {
     return imagePath;
   };
 
-  if (loading) {
-    return <div className="text-center text-white py-20">Đang tải...</div>;
-  }
 
   if (!author) {
     return (
