@@ -13,6 +13,12 @@ A modern frontend template using **React 18**, **TypeScript**, **Vite**, and **T
 
 ---
 
+## 🌐 Repository
+
+- 🐙 [GitHub](https://github.com/thanh-abaii/genesis-website.git)
+
+---
+
 ## 📦 Local Development
 
 ```bash
