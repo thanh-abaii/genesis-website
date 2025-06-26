@@ -8,6 +8,8 @@ interface BookInfo {
   authors: string[];
   description: string;
   cover_image: string;
+  pages: number;
+  publisher: string;
 }
 
 interface Review {
@@ -74,6 +76,10 @@ const Home: React.FC = () => {
                 <p className="text-md md:text-xl text-white/80 mb-6 leading-relaxed">
                   {bookInfo.description}
                 </p>
+                <div className="text-sm text-white/70 mb-6 space-y-2">
+                  <p><strong>Số trang:</strong> {bookInfo.pages}</p>
+                  <p><strong>Nhà xuất bản:</strong> {bookInfo.publisher}</p>
+                </div>
                 <div className="flex flex-col gap-3">
                   <a href="https://shop.alphabooks.vn/genesis-khoi-nguyen-tri-tue-nhan-tao-niem-hi-vong-va-tinh-than-nhan-loai-henry-kissinger-p39107451.html" target="_blank" rel="noopener noreferrer" className="btn-primary px-6 py-3 rounded-lg text-md font-semibold inline-flex items-center justify-center hover:bg-blue-600 transition-colors">
                     Sở hữu ngay
