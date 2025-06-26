@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { ExternalLink, Award, Users, BookOpen, Briefcase } from 'lucide-react';
+import { Link } from 'react-router-dom'; // Import Link
+import { ExternalLink, Award, Users, BookOpen, Briefcase, ArrowRight } from 'lucide-react';
 
 interface Author {
   name: string;
+  slug: string; // Add slug
   title: string;
   bio: string;
   expertise: string[];
@@ -152,6 +154,17 @@ const Authors: React.FC = () => {
                         </li>
                       ))}
                     </ul>
+                  </div>
+
+                  {/* View Details Button */}
+                  <div className="mt-6">
+                    <Link
+                      to={`/authors/${author.slug}`}
+                      className="inline-flex items-center font-semibold text-white bg-white/10 hover:bg-white/20 px-6 py-3 rounded-lg transition-colors"
+                    >
+                      Xem chi tiết
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </Link>
                   </div>
                 </div>
               </div>

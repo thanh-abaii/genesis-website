@@ -1,32 +1,38 @@
 [
   {
     "name": "Henry A. Kissinger",
+    "slug": "henry-kissinger",
     "title": "Cựu Ngoại trưởng Hoa Kỳ",
-    "bio": "Henry Kissinger là một nhà ngoại giao và nhà lý thuyết chính trị nổi tiếng, từng giữ chức Ngoại trưởng Hoa Kỳ từ 1973-1977. Ông là người đoạt giải Nobel Hòa bình năm 1973 và được biết đến với vai trò quan trọng trong việc định hình chính sách đối ngoại Mỹ trong thời kỳ Chiến tranh Lạnh.",
+    "bio": "Henry Alfred Kissinger (sinh năm 1923 tại Đức) là một nhà ngoại giao, nhà khoa học chính trị và chiến lược gia người Mỹ gốc Do Thái. Gia đình ông di cư đến Hoa Kỳ vào năm 1938 để thoát khỏi sự đàn áp của Đức Quốc xã. Ông trở thành Cố vấn An ninh Quốc gia năm 1969 và sau đó là Ngoại trưởng Hoa Kỳ từ năm 1973 đến năm 1977, phục vụ dưới thời các Tổng thống Richard Nixon và Gerald Ford. Nổi tiếng với chính sách đối ngoại thực dụng (realpolitik), ông đóng vai trò then chốt trong việc thiết lập quan hệ với Trung Quốc, đàm phán các hiệp ước kiểm soát vũ khí với Liên Xô (SALT I), và dàn xếp kết thúc Chiến tranh Yom Kippur. Ông được trao giải Nobel Hòa bình năm 1973 cùng với Lê Đức Thọ cho những nỗ lực của họ trong việc đàm phán Hiệp định Hòa bình Paris nhằm chấm dứt Chiến tranh Việt Nam. Sau khi rời chính phủ, ông tiếp tục là một nhà tư vấn và bình luận có ảnh hưởng về các vấn đề quốc tế cho đến khi qua đời vào năm 2023.",
     "expertise": [
       "Ngoại giao",
       "Chính trị quốc tế",
-      "Chiến lược"
+      "Chiến lược",
+      "Lịch sử"
     ]
   },
   {
     "name": "Eric Schmidt",
-    "title": "Cựu CEO Google",
-    "bio": "Eric Schmidt là cựu CEO của Google (2001-2011) và Executive Chairman của Alphabet. Ông đã đóng vai trò quan trọng trong việc phát triển Google thành một trong những công ty công nghệ lớn nhất thế giới. Schmidt cũng là chủ tịch của Defense Innovation Board và có nhiều đóng góp trong lĩnh vực AI và công nghệ.",
+    "slug": "eric-schmidt",
+    "title": "Cựu CEO Google và Chủ tịch điều hành Alphabet",
+    "bio": "Eric Emerson Schmidt (sinh năm 1955) là một doanh nhân và kỹ sư phần mềm người Mỹ. Sau khi lấy bằng tiến sĩ khoa học máy tính tại Đại học California, Berkeley, ông đã làm việc tại các công ty công nghệ hàng đầu như Bell Labs và Sun Microsystems, nơi ông lãnh đạo việc phát triển Java. Năm 2001, ông được những người sáng lập Google là Larry Page và Sergey Brin mời về làm Giám đốc điều hành. Trong suốt một thập kỷ lãnh đạo của mình, Schmidt đã đưa Google từ một công ty khởi nghiệp về tìm kiếm trở thành một gã khổng lồ công nghệ toàn cầu. Ông giữ chức vụ Giám đốc điều hành cho đến năm 2011, sau đó trở thành Chủ tịch điều hành của Google và sau này là công ty mẹ, Alphabet Inc., cho đến năm 2018. Ông hiện là một nhà từ thiện tích cực, nhà đầu tư và là một tiếng nói hàng đầu về các vấn đề liên quan đến trí tuệ nhân tạo, đổi mới công nghệ và chính sách công.",
     "expertise": [
       "Công nghệ",
       "AI",
-      "Quản lý doanh nghiệp"
+      "Quản lý doanh nghiệp",
+      "Đầu tư"
     ]
   },
   {
     "name": "Craig Mundie",
-    "title": "Cựu Chief Research and Strategy Officer Microsoft",
-    "bio": "Craig Mundie đã làm việc tại Microsoft trong hơn 20 năm, giữ các vị trí lãnh đạo cao cấp bao gồm Chief Research and Strategy Officer. Ông có nhiều kinh nghiệm trong nghiên cứu và phát triển công nghệ, đặc biệt trong lĩnh vực trí tuệ nhân tạo và tính toán.",
+    "slug": "craig-mundie",
+    "title": "Cựu Giám đốc Nghiên cứu và Chiến lược Microsoft",
+    "bio": "Craig James Mundie (sinh năm 1949) là một nhà lãnh đạo và chiến lược gia công nghệ người Mỹ. Ông có bằng Cử nhân Kỹ thuật Điện và bằng Thạc sĩ về Lý thuyết Thông tin và Khoa học Máy tính tại Georgia Tech. Năm 1982, ông đồng sáng lập Alliant Computer Systems, một công ty siêu máy tính. Ông gia nhập Microsoft vào năm 1992 để lãnh đạo Bộ phận Nền tảng Tiêu dùng, giám sát việc phát triển các hệ điều hành như Windows CE cho các thiết bị cầm tay và ô tô. Sau đó, ông giữ chức vụ Giám đốc Nghiên cứu và Chiến lược của Microsoft từ năm 2006 đến năm 2012, và là Cố vấn cấp cao cho CEO cho đến khi nghỉ hưu vào năm 2014. Ông được biết đến với tầm nhìn sâu sắc về các xu hướng công nghệ dài hạn và vai trò của chúng trong xã hội. Hiện tại, ông là Chủ tịch của Mundie & Associates, tư vấn cho các CEO về các vấn đề chiến lược công nghệ.",
     "expertise": [
       "Nghiên cứu công nghệ",
       "AI",
-      "Chiến lược công nghệ"
+      "Chiến lược công nghệ",
+      "Siêu máy tính"
     ]
   }
 ]
